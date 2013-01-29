@@ -8,7 +8,7 @@
     
     
     class DefaultController extends Controller{
-        /** @Route("/hello/{name}") 
+        /** @Route("/hello/{name}", name="greet") 
             @Template()
         */
         public function indexAction($name){
