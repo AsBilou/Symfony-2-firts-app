@@ -167,6 +167,16 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array_merge($this->mergeDefaults($matches, array (  '_controller' => 'Sensio\\Bundle\\TrainingBundle\\Controller\\DefaultController::indexAction',)), array('_route' => 'greet'));
         }
 
+        // greet_Cookie
+        if ($pathinfo === '/hello') {
+            return array (  '_controller' => 'Sensio\\Bundle\\TrainingBundle\\Controller\\DefaultController::helloAction',  '_route' => 'greet_Cookie',);
+        }
+
+        // live_counter
+        if ($pathinfo === '/inc/counter') {
+            return array (  '_controller' => 'Sensio\\Bundle\\TrainingBundle\\Controller\\DefaultController::counterAction',  '_route' => 'live_counter',);
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }

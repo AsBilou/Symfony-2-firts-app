@@ -7,7 +7,16 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        <div id="header">
+            {%include "::menu.html.twig" with {"id":"menu_top"}%}
+        </div>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        <div id="footer">
+            {%include "::menu.html.twig" with {"id":"menu_botom"}%}
+        </div>
+        <div style="float:right">
+            {%render url('live_counter')%}
+        </div>
     </body>
 </html>

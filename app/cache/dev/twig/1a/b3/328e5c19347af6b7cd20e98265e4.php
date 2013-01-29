@@ -37,14 +37,32 @@ class __TwigTemplate_1ab3328e5c19347af6b7cd20e98265e4 extends Twig_Template
         echo "\" />
     </head>
     <body>
-        ";
-        // line 10
-        $this->displayBlock('body', $context, $blocks);
+        <div id=\"header\">
+            ";
         // line 11
+        $this->env->loadTemplate("::menu.html.twig")->display(array_merge($context, array("id" => "menu_top")));
+        // line 12
+        echo "        </div>
+        ";
+        // line 13
+        $this->displayBlock('body', $context, $blocks);
+        // line 14
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 12
-        echo "    </body>
+        // line 15
+        echo "        <div id=\"footer\">
+            ";
+        // line 16
+        $this->env->loadTemplate("::menu.html.twig")->display(array_merge($context, array("id" => "menu_botom")));
+        // line 17
+        echo "        </div>
+        <div style=\"float:right\">
+            ";
+        // line 19
+        echo $this->env->getExtension('actions')->renderAction($this->env->getExtension('routing')->getUrl("live_counter"), array(), array());
+        // line 20
+        echo "        </div>
+    </body>
 </html>
 ";
     }
@@ -60,12 +78,12 @@ class __TwigTemplate_1ab3328e5c19347af6b7cd20e98265e4 extends Twig_Template
     {
     }
 
-    // line 10
+    // line 13
     public function block_body($context, array $blocks = array())
     {
     }
 
-    // line 11
+    // line 14
     public function block_javascripts($context, array $blocks = array())
     {
     }
@@ -82,6 +100,6 @@ class __TwigTemplate_1ab3328e5c19347af6b7cd20e98265e4 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  69 => 11,  64 => 10,  59 => 6,  53 => 5,  47 => 12,  44 => 11,  42 => 10,  35 => 7,  33 => 6,  29 => 5,  23 => 1,  31 => 3,  28 => 2,);
+        return array (  87 => 14,  82 => 13,  77 => 6,  71 => 5,  64 => 20,  62 => 19,  58 => 17,  56 => 16,  53 => 15,  50 => 14,  48 => 13,  45 => 12,  43 => 11,  35 => 7,  33 => 6,  29 => 5,  23 => 1,);
     }
 }
