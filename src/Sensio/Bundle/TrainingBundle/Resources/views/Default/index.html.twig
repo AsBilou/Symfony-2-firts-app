@@ -3,5 +3,7 @@
     Symfony 3000
 {%endblock%}
 {%block body%}
-    Hello {{ name }}!
+    Hello {{ name }}!<br/>
+    {{ url("greet",{'name':name}) }}<br/>
+    {{path('greet',{'name':name}) }}
 {%endblock%}

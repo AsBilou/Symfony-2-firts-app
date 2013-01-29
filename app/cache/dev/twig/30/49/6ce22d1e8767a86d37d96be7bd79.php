@@ -39,7 +39,15 @@ class __TwigTemplate_30496ce22d1e8767a86d37d96be7bd79 extends Twig_Template
         // line 6
         echo "    Hello ";
         echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")), "html", null, true);
-        echo "!
+        echo "!<br/>
+    ";
+        // line 7
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getUrl("greet", array("name" => (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")))), "html", null, true);
+        echo "<br/>
+    ";
+        // line 8
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("greet", array("name" => (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")))), "html", null, true);
+        echo "
 ";
     }
 
@@ -55,6 +63,6 @@ class __TwigTemplate_30496ce22d1e8767a86d37d96be7bd79 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  40 => 6,  37 => 5,  32 => 3,  29 => 2,);
+        return array (  49 => 8,  45 => 7,  40 => 6,  37 => 5,  32 => 3,  29 => 2,);
     }
 }
