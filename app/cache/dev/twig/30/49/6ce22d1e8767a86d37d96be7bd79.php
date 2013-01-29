@@ -10,6 +10,7 @@ class __TwigTemplate_30496ce22d1e8767a86d37d96be7bd79 extends Twig_Template
         $this->parent = $this->env->loadTemplate("::base.html.twig");
 
         $this->blocks = array(
+            'title' => array($this, 'block_title'),
             'body' => array($this, 'block_body'),
         );
     }
@@ -25,10 +26,18 @@ class __TwigTemplate_30496ce22d1e8767a86d37d96be7bd79 extends Twig_Template
     }
 
     // line 2
-    public function block_body($context, array $blocks = array())
+    public function block_title($context, array $blocks = array())
     {
         // line 3
-        echo "Hello ";
+        echo "    Symfony 3000
+";
+    }
+
+    // line 5
+    public function block_body($context, array $blocks = array())
+    {
+        // line 6
+        echo "    Hello ";
         echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")), "html", null, true);
         echo "!
 ";
@@ -46,6 +55,6 @@ class __TwigTemplate_30496ce22d1e8767a86d37d96be7bd79 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  31 => 3,  28 => 2,);
+        return array (  40 => 6,  37 => 5,  32 => 3,  29 => 2,);
     }
 }
