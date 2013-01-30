@@ -162,6 +162,11 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        // sensio_training_converter_celsius
+        if (0 === strpos($pathinfo, '/convert') && preg_match('#^/convert/(?P<celsius>\\d+)/fahrenheit\\.(?P<_format>xml|json)$#s', $pathinfo, $matches)) {
+            return array_merge($this->mergeDefaults($matches, array (  '_controller' => 'Sensio\\Bundle\\TrainingBundle\\Controller\\ConverterController::celsiusAction',)), array('_route' => 'sensio_training_converter_celsius'));
+        }
+
         // greet
         if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]+)$#s', $pathinfo, $matches)) {
             return array_merge($this->mergeDefaults($matches, array (  '_controller' => 'Sensio\\Bundle\\TrainingBundle\\Controller\\DefaultController::indexAction',)), array('_route' => 'greet'));
