@@ -266,11 +266,11 @@ class appDevDebugProjectContainer extends Container
      * This service is shared.
      * This method always returns the same instance of the service.
      *
-     * @return EntityManager5109274f40e0a_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager A EntityManager5109274f40e0a_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager instance.
+     * @return EntityManager510937e28412f_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager A EntityManager510937e28412f_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager instance.
      */
     protected function getDoctrine_Orm_DefaultEntityManagerService()
     {
-        require_once '/Users/Bilou/GitHub/Symfony-2-firts-app/app/cache/dev/jms_diextra/doctrine/EntityManager_5109274f40e0a.php';
+        require_once '/Users/Bilou/GitHub/Symfony-2-firts-app/app/cache/dev/jms_diextra/doctrine/EntityManager_510937e28412f.php';
 
         $a = new \Doctrine\Common\Cache\ArrayCache();
         $a->setNamespace('sf2orm_default_1a3227151b2b0e7dd02cc9b591efc217');
@@ -297,7 +297,7 @@ class appDevDebugProjectContainer extends Container
         $e = call_user_func(array('Doctrine\\ORM\\EntityManager', 'create'), $this->get('doctrine.dbal.default_connection'), $d);
         $this->get('doctrine.orm.default_manager_configurator')->configure($e);
 
-        return $this->services['doctrine.orm.default_entity_manager'] = new \EntityManager5109274f40e0a_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager($e, $this);
+        return $this->services['doctrine.orm.default_entity_manager'] = new \EntityManager510937e28412f_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager($e, $this);
     }
 
     /**
@@ -1556,6 +1556,19 @@ class appDevDebugProjectContainer extends Container
     }
 
     /**
+     * Gets the 'sensio.contact' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Sensio\Bundle\TrainingBundle\Contact\Contact A Sensio\Bundle\TrainingBundle\Contact\Contact instance.
+     */
+    protected function getSensio_ContactService()
+    {
+        return $this->services['sensio.contact'] = new \Sensio\Bundle\TrainingBundle\Contact\Contact($this->get('mailer'));
+    }
+
+    /**
      * Gets the 'sensio.distribution.webconfigurator' service.
      *
      * This service is shared.
@@ -1819,7 +1832,6 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['swiftmailer.transport'] = $instance = new \Swift_Transport_SpoolTransport($this->get('swiftmailer.transport.eventdispatcher'), $this->get('swiftmailer.spool'));
 
-        $instance->registerPlugin(new \Swift_Plugins_RedirectingPlugin('me@example.com', array()));
         $instance->registerPlugin($this->get('swiftmailer.plugin.messagelogger'));
 
         return $instance;
@@ -2532,7 +2544,7 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getWebProfiler_DebugToolbarService()
     {
-        return $this->services['web_profiler.debug_toolbar'] = new \Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener($this->get('templating'), false, 2, 'bottom');
+        return $this->services['web_profiler.debug_toolbar'] = new \Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener($this->get('templating'), true, 2, 'bottom');
     }
 
     /**
@@ -2568,7 +2580,7 @@ class appDevDebugProjectContainer extends Container
     /**
      * Gets the doctrine.orm.entity_manager service alias.
      *
-     * @return EntityManager5109274f40e0a_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager An instance of the doctrine.orm.default_entity_manager service
+     * @return EntityManager510937e28412f_546a8d27f194334ee012bfe64f629947b07e4919\__CG__\Doctrine\ORM\EntityManager An instance of the doctrine.orm.default_entity_manager service
      */
     protected function getDoctrine_Orm_EntityManagerService()
     {
@@ -3257,7 +3269,7 @@ class appDevDebugProjectContainer extends Container
             'swiftmailer.spool.memory.path' => '/Users/Bilou/GitHub/Symfony-2-firts-app/app/cache/dev/swiftmailer/spool',
             'swiftmailer.spool.enabled' => true,
             'swiftmailer.sender_address' => NULL,
-            'swiftmailer.single_address' => 'me@example.com',
+            'swiftmailer.single_address' => NULL,
             'swiftmailer.delivery_whitelist' => array(
 
             ),
@@ -3393,8 +3405,8 @@ class appDevDebugProjectContainer extends Container
             ),
             'jms_di_extra.cache_dir' => '/Users/Bilou/GitHub/Symfony-2-firts-app/app/cache/dev/jms_diextra',
             'jms_di_extra.doctrine_integration' => true,
-            'jms_di_extra.doctrine_integration.entity_manager.file' => '/Users/Bilou/GitHub/Symfony-2-firts-app/app/cache/dev/jms_diextra/doctrine/EntityManager_5109274f40e0a.php',
-            'jms_di_extra.doctrine_integration.entity_manager.class' => 'EntityManager5109274f40e0a_546a8d27f194334ee012bfe64f629947b07e4919\\__CG__\\Doctrine\\ORM\\EntityManager',
+            'jms_di_extra.doctrine_integration.entity_manager.file' => '/Users/Bilou/GitHub/Symfony-2-firts-app/app/cache/dev/jms_diextra/doctrine/EntityManager_510937e28412f.php',
+            'jms_di_extra.doctrine_integration.entity_manager.class' => 'EntityManager510937e28412f_546a8d27f194334ee012bfe64f629947b07e4919\\__CG__\\Doctrine\\ORM\\EntityManager',
             'security.secured_services' => array(
 
             ),
@@ -3430,7 +3442,7 @@ class appDevDebugProjectContainer extends Container
             'security.role_voter.disabled' => false,
             'security.acl_voter.disabled' => false,
             'web_profiler.debug_toolbar.class' => 'Symfony\\Bundle\\WebProfilerBundle\\EventListener\\WebDebugToolbarListener',
-            'web_profiler.debug_toolbar.intercept_redirects' => false,
+            'web_profiler.debug_toolbar.intercept_redirects' => true,
             'web_profiler.debug_toolbar.mode' => 2,
             'web_profiler.debug_toolbar.position' => 'bottom',
             'sensio.distribution.webconfigurator.class' => 'Sensio\\Bundle\\DistributionBundle\\Configurator\\Configurator',

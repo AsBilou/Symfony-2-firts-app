@@ -22,7 +22,8 @@
         */
         public function contactAction(Request $request)
         {
-            $contact = new Contact($this->get('mailer'));
+            //$contact = new Contact($this->get('mailer'));
+            $contact = $this->get('Sensio.contact');
             $contact->sender = "contact@romainbellina.fr";
             $form = $this->createForm(new ContactType(),$contact);
             
