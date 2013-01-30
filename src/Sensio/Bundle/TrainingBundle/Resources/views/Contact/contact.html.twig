@@ -1,0 +1,7 @@
+{%block body%}
+    <form novalidate action="{{ path('contact') }}" novalidate method="post">
+    {{ form_widget(form) }}
+
+    <input type="submit" name="submit" />
+</form>
+{%endblock%}

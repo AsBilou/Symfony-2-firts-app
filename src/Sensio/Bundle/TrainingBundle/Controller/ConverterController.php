@@ -8,6 +8,7 @@
     use Symfony\Bundle\FrameworkBundle\Controller\Controller;
     use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
     use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+    use Sensio\Bundle\TrainingBundle\Converter\CelsiusConverter;
     
 
     class ConverterController extends Controller
@@ -23,8 +24,14 @@
         */
         public function celsiusAction($celsius)
         {
-            $celsius = (float) $celsius;
-            $fahrenheit = ($celsius * 9) / 5 + 32;
+            /*
+                $celsius = (float) $celsius;
+                $fahrenheit = ($celsius * 9) / 5 + 32;
+            */
+            
+            $converter = new CelsiusConverter($celsius);
+            $converter->convert();
+            $fahrenheit = $converter->getFahrenheit();
             return array(
                 'fahrenheit' => $fahrenheit,
                 'celsius' => $celsius
