@@ -417,3 +417,6 @@
 51094f2c52f4b,127.0.0.1,GET,http://github/Symfony-2-firts-app/web/app_dev.php/contact,1359564588,
 510a2f6d00fd1,127.0.0.1,GET,http://github/Symfony-2-firts-app/web/app_dev.php/,1359621997,
 510a2f751a9bd,127.0.0.1,GET,http://github/Symfony-2-firts-app/web/app_dev.php/contact,1359622005,
+510a3112bb615,127.0.0.1,GET,http://github/Symfony-2-firts-app/web/app_dev.php/contact,1359622418,
+510a3168f3594,127.0.0.1,GET,http://github/Symfony-2-firts-app/web/app_dev.php/convert/20/fahrenheit.xml,1359622504,
+510a316ee5a0a,127.0.0.1,GET,http://github/Symfony-2-firts-app/web/app_dev.php/convert/0/fahrenheit.xml,1359622510,
