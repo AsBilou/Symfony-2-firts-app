@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf026a5d-018c-4729-83f6-38476413946e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Symfony-2-firts-app.iml" afterPath="$PROJECT_DIR$/.idea/Symfony-2-firts-app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/sessions/sess_8727d4b7ad5cf5199ab807af7554797e" afterPath="$PROJECT_DIR$/app/cache/dev/sessions/sess_8727d4b7ad5cf5199ab807af7554797e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Converter/CelsiusConverter.php" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Converter/CelsiusConverter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php" />
     </list>
     <ignored path="Symfony-2-firts-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,64 +26,39 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config_dev.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="14" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ContactController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Resources/config/services.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensioTrainingExtension.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/DependencyInjection/SensioTrainingExtension.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="892" selection-end="892" vertical-scroll-proportion="-16.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="1" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="converterTest.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="converterTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="258" selection-end="258" vertical-scroll-proportion="0.18703242">
+            <state line="40" column="14" selection-start="1161" selection-end="1161" vertical-scroll-proportion="-25.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CelsiusConverter.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Converter/CelsiusConverter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="36" selection-start="904" selection-end="904" vertical-scroll-proportion="-20.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterControllerTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="45" selection-start="446" selection-end="446" vertical-scroll-proportion="0.33665836">
+              <folding>
+                <element signature="e#6#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConverterController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="56" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
@@ -107,6 +81,9 @@
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php" />
+        <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Converter/CelsiusConverter.php" />
+        <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php" />
       </list>
     </option>
   </component>
@@ -227,6 +204,100 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony-2-firts-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony-2-firts-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sensio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony-2-firts-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony-2-firts-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sensio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony-2-firts-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony-2-firts-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sensio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrainingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,52 +444,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Resources/config/services.xml">
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+        <state line="25" column="14" selection-start="511" selection-end="511" vertical-scroll-proportion="0.45399517">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+        <state line="25" column="36" selection-start="888" selection-end="888" vertical-scroll-proportion="0.382793">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Resources/config/services.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.21791768">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/DependencyInjection/SensioTrainingExtension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="892" selection-end="892" vertical-scroll-proportion="-16.875">
+        <state line="27" column="1" selection-start="892" selection-end="892" vertical-scroll-proportion="0.50498754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="0.018159807">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="1" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.0">
+        <state line="40" column="1" selection-start="1724" selection-end="1724" vertical-scroll-proportion="0.72639227">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="258" selection-end="258" vertical-scroll-proportion="0.18703242">
+        <state line="40" column="14" selection-start="1161" selection-end="1161" vertical-scroll-proportion="-25.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Converter/CelsiusConverter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="36" selection-start="904" selection-end="904" vertical-scroll-proportion="-20.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="56" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-19.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="45" selection-start="446" selection-end="446" vertical-scroll-proportion="0.33665836">
+          <folding>
+            <element signature="e#6#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

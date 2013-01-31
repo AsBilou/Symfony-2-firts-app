@@ -3,25 +3,35 @@
     namespace Sensio\Bundle\TrainingBundle\Converter;
     
     class CelsiusConverter {
-        
+
+        const KELVIN_ZERO_VALUE = 273.15;
         private $celsius;
-        private $fahrenheit;
         
         public function __Construct($celsius){
             $this->celsius = $celsius;
         }
         
-        public function convert(){
-            $celsius = (float) $this->celsius;
-            $this->fahrenheit = ($celsius * 9) / 5 + 32;
-        }
-        
         public function getFahrenheit(){
-            return $this->fahrenheit;
+            if(!is_numeric($this->celsius)){
+                return false;
+            }
+            $celsius = (float) $this->celsius;
+            return ($celsius * 9) / 5 + 32;
         }
         
         public function getCelsius(){
+            if(!is_numeric($this->celsius)){
+                return false;
+            }
             return $this->celsius;
+        }
+
+        public function getKelvin(){
+            if(!is_numeric($this->celsius)){
+                return false;
+            }
+            $celsius = (float) $this->celsius;
+            return $celsius + self::KELVIN_ZERO_VALUE;
         }
     }
 ?>

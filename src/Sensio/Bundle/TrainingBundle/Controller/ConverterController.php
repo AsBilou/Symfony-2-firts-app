@@ -30,7 +30,6 @@
             */
             
             $converter = new CelsiusConverter($celsius);
-            $converter->convert();
             $fahrenheit = $converter->getFahrenheit();
             return array(
                 'fahrenheit' => $fahrenheit,
