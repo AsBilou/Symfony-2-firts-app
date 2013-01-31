@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf026a5d-018c-4729-83f6-38476413946e" name="Default" comment="" />
+    <list default="true" id="bf026a5d-018c-4729-83f6-38476413946e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/Sensio-Bundle-TrainingBundle-Controller-ConverterController#celsiusAction.cache.php" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/Sensio-Bundle-TrainingBundle-Controller-ConverterController#celsiusAction.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appdevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appdevUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/test/annotations/Sensio-Bundle-TrainingBundle-Controller-ConverterController#celsiusAction.cache.php" afterPath="$PROJECT_DIR$/app/cache/test/annotations/Sensio-Bundle-TrainingBundle-Controller-ConverterController#celsiusAction.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/test/apptestUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/test/apptestUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/test/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/test/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/test.log" afterPath="$PROJECT_DIR$/app/logs/test.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php" afterPath="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php" />
+    </list>
     <ignored path="Symfony-2-firts-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +32,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="converterTest.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="converterTest.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="14" selection-start="1161" selection-end="1161" vertical-scroll-proportion="-25.0">
+            <state line="44" column="9" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.8229426">
               <folding />
             </state>
           </provider>
@@ -38,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConverterControllerTest.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ConverterControllerTest.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="45" selection-start="446" selection-end="446" vertical-scroll-proportion="0.33665836">
+            <state line="20" column="81" selection-start="556" selection-end="556" vertical-scroll-proportion="-12.5">
               <folding>
                 <element signature="e#6#160#0" expanded="true" />
               </folding>
@@ -52,7 +64,16 @@
       <file leaf-file-name="ConverterController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="56" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-19.375">
+            <state line="18" column="33" selection-start="723" selection-end="723" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -74,10 +95,10 @@
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ContactController.php" />
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Resources/config/services.xml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php" />
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Converter/CelsiusConverter.php" />
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php" />
+        <option value="$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php" />
       </list>
     </option>
   </component>
@@ -302,6 +323,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hangman" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -396,13 +418,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="36" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
@@ -480,10 +495,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="14" selection-start="1161" selection-end="1161" vertical-scroll-proportion="-25.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="81" selection-start="556" selection-end="556" vertical-scroll-proportion="-12.5">
+          <folding>
+            <element signature="e#6#160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,17 +520,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Controller/ConverterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="56" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-19.375">
+        <state line="18" column="33" selection-start="723" selection-end="723" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/controller/ConverterControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Sensio/Bundle/TrainingBundle/Tests/converterTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="446" selection-end="446" vertical-scroll-proportion="0.33665836">
-          <folding>
-            <element signature="e#6#160#0" expanded="true" />
-          </folding>
+        <state line="44" column="9" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.8229426">
+          <folding />
         </state>
       </provider>
     </entry>

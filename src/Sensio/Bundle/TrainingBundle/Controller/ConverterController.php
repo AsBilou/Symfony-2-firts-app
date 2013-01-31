@@ -16,7 +16,7 @@
         /**
         * @Route("/convert/{celsius}/fahrenheit.{_format}", 
         *       requirements={ 
-        *           "celsius"="\d+",
+        *           "celsius"="-?\d+",
         *           "_format"="xml|json"
         *       }
         *)

@@ -173,7 +173,7 @@ class apptestUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
         }
 
         // sensio_training_converter_celsius
-        if (0 === strpos($pathinfo, '/convert') && preg_match('#^/convert/(?P<celsius>\\d+)/fahrenheit\\.(?P<_format>xml|json)$#s', $pathinfo, $matches)) {
+        if (0 === strpos($pathinfo, '/convert') && preg_match('#^/convert/(?P<celsius>-?\\d+)/fahrenheit\\.(?P<_format>xml|json)$#s', $pathinfo, $matches)) {
             return array_merge($this->mergeDefaults($matches, array (  '_controller' => 'Sensio\\Bundle\\TrainingBundle\\Controller\\ConverterController::celsiusAction',)), array('_route' => 'sensio_training_converter_celsius'));
         }
 

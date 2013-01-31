@@ -20,4 +20,13 @@ class ConverterControllerTest extends WebTestCase{
 
         $this->assertTrue($crawler->filter('celsius:contains("10")')->count()>0);
     }
+
+    public function testNegatif(){
+
+        $client = static::createClient();
+
+        $crawler = $client->request('GET','/convert/-10/fahrenheit.xml');
+
+        $this->assertTrue($crawler->filter('celsius:contains("-10")')->count()>0);
+    }
 }
